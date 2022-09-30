@@ -21,22 +21,22 @@
     
     <div class="mainMenu">
         
-        <div class="button">
+        <div>
 
             <table class="mainMenu">
                 <tr> <!--Dugme za prijavu kandidata-->
                     <td class="td1">
-                        <input type="button" name="SignUp" value="Nova prijava">
+                        <input type="button" class="button" name="SignUp" value="Nova prijava">
                     </td>
 
-                    <td class="td2" title="Priajva novog kandidata u sistem"> <!--Moguća izmjena-->
+                    <td class="td2" title="Prijava novog kandidata u sistem"> <!--Moguća izmjena-->
                         *
                     </td>
                 </tr>
 
                 <tr> <!--Dugme za status na rang listi-->
                     <td class="td1">
-                        <input type="button" name="Status" value="Status na listama">
+                        <input type="button" class="button" name="Status" value="Status na listama">
                     </td>
                     
                     <td class="td2" title="Status kandidata na rang listama"> <!--Moguća izmjena-->
@@ -46,7 +46,7 @@
 
                 <tr> <!--Dugme za odjavu sa sistema, MOGUĆE UKLONITI-->
                     <td class="td1">
-                        <input type="button" name="LogOut" value="Odjava">
+                        <input type="button" class="button" name="LogOut" value="Odjava">
                     </td>
 
                     <td class="td2" title="Odjava sa sistema"> <!--Moguća izmjena-->

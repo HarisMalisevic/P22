@@ -2,6 +2,8 @@ html * {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+html, body {margin-top: 10px; height: 100%; overflow: hidden}
+
 body { 
     background-color: #2e34a1;
     color: white;
@@ -14,13 +16,13 @@ body {
     padding: .05%;
     margin-bottom: 5%;
     background: #1e216c;
-    color: rgb(173, 173, 173);
+    color: white;
     font-size: auto;
-    max-width: 60%;
+    max-width: 50%;
     border-radius: 10px;
 }
 
-input {
+.button {
     background-color: #1e216c;
     color: white;
     padding: 10px 20px;
@@ -28,11 +30,18 @@ input {
     font-size: 16px;
     border-radius: 4px;
     transition-duration: 0.4s;
+    box-shadow: 0 2px rgb(15, 33, 118);
   }
 
-input:hover {
-    background-color: #4262f2; /* Green */
+.button:hover {
+    background-color: #4262f2;
     color: white;
+}
+
+.button:active {
+    background-color: #4262f2;
+    box-shadow: 0 1px rgb(15, 33, 118);
+    transform: translateY(2px);
 }
 
 .mainMenu {
@@ -46,6 +55,7 @@ table {
 
 .td1 {
     min-width: 150px;
+    padding-bottom: 7px;
 }
 
 .td2 {
